@@ -1,6 +1,6 @@
 {
   "name": "mini-toastr-o8",
-  "version": "0.6.8",
+  "version": "0.6.9",
   "description": "Non-blocking toaster notifications",
   "main": "dist/mini-toastr.es5.js",
   "scripts": {
