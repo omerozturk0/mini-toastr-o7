@@ -202,6 +202,7 @@ var miniToastr = function () {
       }, timeout || config.timeout);
 
       var notify_count = document.querySelector("." + CLASSES.notification).length;
+      console.log(notify_count);
       if (notify_count > 1) document.querySelector("." + CLASSES.notification + ":last-child").remove();
 
       if (cb) cb();
