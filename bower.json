@@ -1,0 +1,45 @@
+{
+  "name": "mini-toastr-o7",
+  "version": "0.6.5",
+  "description": "Non-blocking toaster notifications",
+  "main": "dist/mini-toastr.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omerozturk0/mini-toastr-o7"
+  },
+  "keywords": [
+    "non-blocking",
+    "notification",
+    "notifications",
+    "toaster",
+    "Toastr",
+    "toastr",
+    "mini-toastr",
+    "mini-toaster",
+    "miniToastr",
+    "miniToaster",
+    "toastrjs",
+    "toastr.js",
+    "mini-toastr.js",
+    "messages",
+    "errors"
+  ],
+  "authors": [
+    "Ömer Öztürk <omer.oztrk0@gmail.com> (https://optimum7.com)"
+  ],
+  "license": "MIT",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/omerozturk0/mini-toastr-o7/issues"
+  },
+  "homepage": "https://github.com/omerozturk0/mini-toastr-o7",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {},
+  "dependencies": {}
+}
