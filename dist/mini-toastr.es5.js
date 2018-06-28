@@ -201,8 +201,8 @@ var miniToastr = function () {
         return config.animation(notificationElem, cb);
       }, timeout || config.timeout);
 
-      var notify_count = $("." + CLASSES.notification).length;
-      if (notify_count > 1) $("." + CLASSES.notification + ":last-child").remove();
+      var notify_count = document.querySelector("." + CLASSES.notification).length;
+      if (notify_count > 1) document.querySelector("." + CLASSES.notification + ":last-child").remove();
 
       if (cb) cb();
       return this;
